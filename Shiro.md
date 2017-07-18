@@ -20,3 +20,10 @@ This is the currently executing user (human being, 3rd party process, daemon acc
 (It's just not called a 'User' because the word 'User' is usually associated with a human being).
 'the thing that is currently interacting with the software'
 
+
+Acquiring a subject:
+
+    import org.apache.shiro.subject.Subject;
+    import org.apache.shiro.SecurityUtils;
+    ...
+    Subject currentUser = SecurityUtils.getSubject();
