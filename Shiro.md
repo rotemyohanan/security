@@ -8,7 +8,7 @@ When you’re securing your application, probably the most relevant questions to
 1. “Who is the current user?” 
 2. “Is the current user allowed to do X”? 
 
-It is common for us to ask ourselves these questions as we're writing code or designing user interfaces: applications are usually built based on user stories, and you want functionality represented (and secured) based on a per-user basis. 
+Think of it when writing code or designing user interfaces. Applications are usually built based on user stories, and you want functionality represented (and secured) based on a per-user basis. 
 
 The most natural way for us to think about security in our application is based on the current user. 
 Shiro’s API fundamentally represents this way of thinking in its Subject concept.
